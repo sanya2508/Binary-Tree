@@ -72,6 +72,22 @@ Iterative, level orer traversal.
 
 <hr/>
 
+Key point: 
+
+* Breadth First Traversal 
+  1. Level Order Traversal
+
+* Depth First Traversals
+  1. Inorder Traversal (Left-Root-Right)
+  2. Preorder Traversal (Root-Left-Right)
+  3. Postorder Traversal (Left-Right-Root)
+
+> Depth First Traversals are typically recursive and recursive code requires function call overheads.
+
+>The most important points is, BFS starts visiting nodes from root while DFS starts visiting nodes from leaves. So if the problem is to search something that is more likely to closer to root, we would prefer BFS. And if the target node is close to a leaf, we would prefer DFS.
+
+<hr/>
+
 ##  Binary Tree- Count and Sum nodes 
 
  * <a href="https://github.com/sanya2508/Binary-Tree/blob/master/countNodes.cpp">Count number of nodes.</a>
@@ -101,9 +117,23 @@ Iterative, level orer traversal.
 
 <hr/>
 
-## <a href=""> Height Balanced Tree </a>
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/checkHeightBalancedtree.cpp"> Height Balanced Tree </a>
   *The difference in the height of left and right sub-trees should be less than or equal to 1 at every node of the tree.*
-  
-  
+  * Bottom up approach: Every node returning height and a bool value of if the tree is balanced or not.
+  * Complexity will be of O(n).
   
 <hr/>
+
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/buildBalancedTreeFromArray.cpp">Build Balanced Tree from Array</a>
+ *Given an array, build a height balanced binary tree from it.*
+ * Find mid-point of array, make a root node out if it, call for left sub tree, call for right sub tree.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/buildTreeFromPreorderAndInorder.cpp">Build Tree from Inorder and Preorder Traversal</a>
+ * From a preorder and inorder traversal there can only be one unique binary tree.
+
+<hr/>
+
+## Right view of a Binary Tree
+
