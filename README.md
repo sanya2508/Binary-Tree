@@ -159,6 +159,14 @@ Space and Time: O(n)
  Space complexity: O(n)
  But we are traversing more than once!!
 * There can be a optimized solution!
-* References: 1. https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-tree/
-              2. https://www.youtube.com/watch?v=6Q7OrMi0Vvc
-              3. https://codeforces.com/blog/entry/43917
+* References: 
+   1. https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-tree/              
+   2. https://www.youtube.com/watch?v=6Q7OrMi0Vvc
+   3. https://codeforces.com/blog/entry/43917
+
+<hr/>
+
+## Binary Tree to Doubly Linked List
+*First node of inorder must be head of list.*
+* Traverse left sub-tree and convert it to a doubly linked list, attach root with the LST based linked list, convert right sub-tree to doubly linked list and attach.
+* Maintain a previous variable storing address of last node of sub trees.
