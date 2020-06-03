@@ -158,4 +158,7 @@ Space and Time: O(n)
  Time complexity: O(n)
  Space complexity: O(n)
  But we are traversing more than once!!
-* Optimized solution: 
+* There can be a optimized solution!
+* References: https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-tree/
+              https://www.youtube.com/watch?v=6Q7OrMi0Vvc
+              https://codeforces.com/blog/entry/43917
