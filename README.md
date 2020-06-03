@@ -135,5 +135,27 @@ Key point:
 
 <hr/>
 
-## Right view of a Binary Tree
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/Right%20view%20of%20Binary%20tree.cpp">Right view of a Binary Tree</a>
+ `Level order approach`: After each level the queue that we use for level order will store all elements of next level from left to right. We will consider the last element for every level.
+Space and Time: O(n)
 
+`Depth first approach`: We can traverse the tree by any of depth first order and we can keep a track of the maximum level we have achieved till now. And further we can traverse in a manner that right sub-tree is visited before left sub-tree. Hence any node to the right most will be visited first.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/Nodes%20at%20a%20distance%20k.cpp">Nodes at a distance k in a Binary Tree </a>
+*Find all the nodes that are at a distance k from a given(target) node.*
+* Two possible cases where node might be present:
+  1. Sub-tree rooted at the target.
+  2. Sub-tree of any ancestor of target.
+  
+<hr/>
+
+## Lowest common ancestor in Binary Tree
+*Given a binary tree with value of two nodes p and q, find the LCA for these two nodes.*
+* LCA: Lowest or the nearmost node, which has both p and q as its descendants. Any node can be considered a descendant of itself.
+* We can extract a list of ancestors for p and q. From both list we can create a prefix array that will contain the list of common ancestors. Since this list has been created by traversing top to bottom of the tree, the last element in the array will be the result.
+ Time complexity: O(n)
+ Space complexity: O(n)
+ But we are traversing more than once!!
+* Optimized solution: 
