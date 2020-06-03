@@ -151,7 +151,7 @@ Space and Time: O(n)
   
 <hr/>
 
-## Lowest common ancestor in Binary Tree
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/LCA.cpp"> Lowest common ancestor in Binary Tree</a>
 *Given a binary tree with value of two nodes p and q, find the LCA for these two nodes.*
 * LCA: Lowest or the nearmost node, which has both p and q as its descendants. Any node can be considered a descendant of itself.
 * We can extract a list of ancestors for p and q. From both list we can create a prefix array that will contain the list of common ancestors. Since this list has been created by traversing top to bottom of the tree, the last element in the array will be the result.
@@ -160,5 +160,7 @@ Space and Time: O(n)
  But we are traversing more than once!!
 * There can be a optimized solution!
 * References: https://leetcode.com/articles/lowest-common-ancestor-of-a-binary-tree/
+              
               https://www.youtube.com/watch?v=6Q7OrMi0Vvc
+              
               https://codeforces.com/blog/entry/43917
