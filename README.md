@@ -166,7 +166,11 @@ Space and Time: O(n)
 
 <hr/>
 
-## Binary Tree to Doubly Linked List
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/Bt2LL.cpp">Binary Tree to Doubly Linked List</a>
 *First node of inorder must be head of list.*
 * Traverse left sub-tree and convert it to a doubly linked list, attach root with the LST based linked list, convert right sub-tree to doubly linked list and attach.
 * Maintain a previous variable storing address of last node of sub trees.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Binary-Tree/blob/master/BinaryTreeUsingPreorder.cpp">Build a Binary tree using Preorder</a>
