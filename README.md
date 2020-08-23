@@ -4,7 +4,7 @@
 
 * Applications: Computer directory, Company organisation hierarchy, etc.
 
-* A tree can be a generic tree, but here we are talking about binart tree.
+* A tree can be a generic tree, but here we are talking about binary tree.
 
 * In binary tree every node will have at most two children.
 <hr/>
